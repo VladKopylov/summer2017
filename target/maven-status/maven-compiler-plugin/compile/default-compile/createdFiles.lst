@@ -1,0 +1,9 @@
+com\kopylov\project\config\MvcConfig.class
+com\kopylov\project\service\impl\UserServiceImpl.class
+com\kopylov\project\config\SpringWebAppInitializer.class
+com\kopylov\project\service\UserService.class
+com\kopylov\project\controller\user\UserController.class
+com\kopylov\project\controller\TestController.class
+com\kopylov\project\entity\User.class
+com\kopylov\project\repository\UserRepository.class
+com\kopylov\project\config\PersistenceContext.class

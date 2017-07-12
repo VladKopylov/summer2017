@@ -1,0 +1,17 @@
+        <tr>
+        <tr>
+        <td><form:label path="productCategories">
+            <spring:message text="Product category"/>
+        </form:label></td>
+        <td>
+            <form:select path="productCategories" type="text" >
+                <c:forEach items="${requestScope.categories}" var="categories">
+                    <option value=${categories.category.toString()}>${categories.category.toString()}</option>
+                </c:forEach>
+            </form:select>
+
+        </td>
+    </tr>
+
+                      @ManyToOne
+                         @JoinColumn(name = "product_category", nullable = false, insertable = false, updatable = false)
